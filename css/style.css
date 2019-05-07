@@ -1,0 +1,314 @@
+.container {
+  width: 70%;
+  margin: auto; }
+
+h2 {
+  line-height: 1.3em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 5em;
+  margin-bottom: 40px; }
+
+span {
+  letter-spacing: 0.05em;
+  color: rgba(209, 201, 201, 0.883); }
+
+h3 {
+  color: #dbd4d4;
+  font-size: 27px;
+  text-align: center; }
+
+footer .footer_wrap {
+  margin-top: -50%;
+  background-color: #333b50;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  justify-content: space-between;
+  padding: 200px; }
+  footer .footer_wrap .footer__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between; }
+    footer .footer_wrap .footer__details p {
+      color: #FFFFFF; }
+  footer .footer_wrap .footer__inputs {
+    display: grid;
+    grid-gap: 18px; }
+    footer .footer_wrap .footer__inputs input {
+      background-color: white;
+      box-sizing: border-box !important;
+      color: #A0A09F;
+      border-style: solid;
+      border-color: rgba(255, 255, 255, 0.55);
+      padding: 3px;
+      margin: 0;
+      max-width: 100%; }
+    footer .footer_wrap .footer__inputs div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px; }
+      footer .footer_wrap .footer__inputs div input {
+        height: 40px;
+        border-width: 1px;
+        background-color: #fbf3f3;
+        border-style: solid;
+        border-color: #f60419; }
+    footer .footer_wrap .footer__inputs .phone {
+      width: 100%;
+      height: 35px; }
+    footer .footer_wrap .footer__inputs .message {
+      width: 100%;
+      height: 232px; }
+    footer .footer_wrap .footer__inputs button {
+      background-color: greenyellow;
+      height: 35px;
+      text-align: center;
+      border: none;
+      border-radius: 3px; }
+      footer .footer_wrap .footer__inputs button:hover {
+        background-color: #3c4458;
+        transition: 1s; }
+
+.container {
+  width: 70%;
+  margin: auto; }
+
+h2 {
+  line-height: 1.3em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 5em;
+  margin-bottom: 40px; }
+
+span {
+  letter-spacing: 0.05em;
+  color: rgba(209, 201, 201, 0.883); }
+
+h3 {
+  color: #dbd4d4;
+  font-size: 27px;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  padding: 50px 0 228px 0;
+  background-color: #191E28;
+  color: #FFF;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  nav :hover {
+    padding: 80px 0 0px 0;
+    font-weight: 600;
+    border-top: 4px solid #fff;
+    transition: 1s;
+    color: white;
+    transition-duration: 2s; }
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%; }
+    nav ul li {
+      padding-bottom: 30px;
+      border-bottom: 1px solid wheat; }
+
+header {
+  position: relative;
+  background-color: #191E28;
+  padding-bottom: 200px; }
+  header img {
+    width: 100%;
+    height: 545px;
+    z-index: 1; }
+  header h1 {
+    position: absolute;
+    left: 28%;
+    top: 26%;
+    z-index: 2;
+    color: white;
+    font-size: 115px; }
+
+.container {
+  width: 70%;
+  margin: auto; }
+
+h2 {
+  line-height: 1.3em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 5em;
+  margin-bottom: 40px; }
+
+span {
+  letter-spacing: 0.05em;
+  color: rgba(209, 201, 201, 0.883); }
+
+h3 {
+  color: #dbd4d4;
+  font-size: 27px;
+  text-align: center; }
+
+main {
+  border-top: 10px solid ghostwhite;
+  border-bottom: 10px solid ghostwhite; }
+  main .knowledge {
+    background-image: url(https://dataveyes.com/images/bloc_01@2x.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 218px 0; }
+    main .knowledge strong {
+      color: #62629b; }
+    main .knowledge div {
+      margin-top: 100px; }
+      main .knowledge div article {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center; }
+        main .knowledge div article span {
+          color: #5656a3; }
+        main .knowledge div article aside {
+          width: 450px;
+          background-color: #00d646;
+          border-radius: 5px;
+          color: #00d646;
+          margin: 0 20px;
+          height: 14px; }
+  main .experiance {
+    border-top: 10px solid whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    background-image: url(https://dataveyes.com/images/bloc_03@2x.png); }
+    main .experiance h2 strong {
+      color: #62629b; }
+    main .experiance article {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 0fr 1fr; }
+      main .experiance article div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        main .experiance article div .small-circle {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: #00d646; }
+        main .experiance article div .small-line {
+          background-color: #00d646;
+          width: 3px;
+          height: 176px; }
+      main .experiance article aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 200px;
+        width: 40%;
+        justify-content: space-around;
+        margin-left: 10%; }
+        main .experiance article aside span {
+          color: #00d646; }
+        main .experiance article aside h4 {
+          color: white; }
+        main .experiance article aside p {
+          color: #ac9f9f; }
+    main .experiance .experiance-col_left aside {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      height: 200px;
+      width: 40%;
+      justify-content: space-around;
+      margin-left: 50%; }
+      main .experiance .experiance-col_left aside span {
+        color: #00d646; }
+      main .experiance .experiance-col_left aside h4 {
+        color: white; }
+      main .experiance .experiance-col_left aside p {
+        color: #ac9f9f; }
+    main .experiance .experiance-col_left div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .experiance .experiance-col_left div .small-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #00d646; }
+      main .experiance .experiance-col_left div .small-line {
+        background-color: #00d646;
+        width: 3px;
+        height: 176px; }
+  main .our-thinks {
+    padding: 150px 0;
+    padding-bottom: 799px;
+    background-color: rgba(156, 154, 154, 0.856); }
+    main .our-thinks h2 {
+      font-size: 4em; }
+    main .our-thinks .our-thinks_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      padding-top: 60px; }
+      main .our-thinks .our-thinks_grid article {
+        background-color: #fff; }
+        main .our-thinks .our-thinks_grid article .thinks__item .thinks__item_img {
+          background-image: url(https://dataveyes.com/images/__manifesto-thumbnail-qa.svg);
+          height: 225px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+          main .our-thinks .our-thinks_grid article .thinks__item .thinks__item_img:hover {
+            transition: all ease 2s;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1); }
+        main .our-thinks .our-thinks_grid article .thinks__item .thinks__item_info {
+          background-color: #F5F5F5;
+          height: 72px;
+          padding: 14px 15px;
+          text-align: center; }
+          main .our-thinks .our-thinks_grid article .thinks__item .thinks__item_info h3 {
+            color: #3E4452;
+            line-height: 22px;
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-family: Euclid, sans-serif !important; }
+          main .our-thinks .our-thinks_grid article .thinks__item .thinks__item_info p {
+            color: #A8A8A8;
+            font-size: 16px;
+            line-height: 28px; }
+        main .our-thinks .our-thinks_grid article .thinks__item button {
+          height: 19px;
+          width: 100%;
+          background-color: #3E4452;
+          color: #3E4452; }
+          main .our-thinks .our-thinks_grid article .thinks__item button:hover {
+            transition: 1s;
+            background-color: #3E4452;
+            color: #FFF;
+            display: block;
+            font-size: 18px;
+            padding-bottom: 37px;
+            height: 60px;
+            width: 100%;
+            line-height: 24px;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 20px;
+            font-family: Euclid, sans-serif !important; }

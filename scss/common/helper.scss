@@ -1,0 +1,28 @@
+// @import "../common/colors.scss";
+// @import "../common/fonts.scss";
+// @import "../common/helper.scss";
+// @import "../common/functions.scss";
+// @import "../common/mixins.scss";
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    line-height: 1.3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 5em;
+    margin-bottom: 40px
+}
+
+span {
+    letter-spacing: 0.05em;
+    color: rgba(209, 201, 201, 0.883);
+}
+
+h3 {
+    color: rgb(219, 212, 212);
+    font-size: 27px;
+    text-align: center;
+}

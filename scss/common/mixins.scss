@@ -1,0 +1,41 @@
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin grid-col3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+// @mixin display-grid($width, $min-width){
+//     @if (($width <= $min-width) and ( $min-width = 960px )){
+//         grid-template-columns: 1fr 1fr 1fr;
+//     } @else {
+//         grid-template-columns: 1fr;
+//     }
+// }
+@mixin hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.438), 0 2px 110px 0 rgba(0, 0, 0, 0.295);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    transition-duration: 5s;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.164), 0 2px 10px 0 rgba(0, 0, 0, 0.24);
+}

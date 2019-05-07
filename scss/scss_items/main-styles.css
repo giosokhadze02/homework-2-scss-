@@ -1,0 +1,202 @@
+h2 {
+  line-height: 1.3em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 5em;
+  margin-bottom: 40px;
+}
+
+span {
+  letter-spacing: 0.05em;
+  color: rgba(209, 201, 201, 0.883);
+}
+
+h3 {
+  color: #dbd4d4;
+  font-size: 27px;
+  text-align: center;
+}
+
+main {
+  border-top: 10px solid ghostwhite;
+  border-bottom: 10px solid ghostwhite;
+}
+
+main .knowledge {
+  background-image: url(https://dataveyes.com/images/bloc_01@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  padding: 218px 0;
+}
+
+main .knowledge strong {
+  color: #62629b;
+}
+
+main .knowledge div {
+  margin-top: 100px;
+}
+
+main .knowledge div article {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .knowledge div article span {
+  color: #5656a3;
+}
+
+main .knowledge div article aside {
+  width: 450px;
+  background-color: #00d646;
+  border-radius: 5px;
+  color: #00d646;
+  margin: 0 20px;
+  height: 14px;
+}
+
+main .experiance {
+  border-top: 10px solid whitesmoke;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  background-image: url(https://dataveyes.com/images/bloc_03@2x.png);
+}
+
+main .experiance h2 strong {
+  color: #62629b;
+}
+
+main .experiance article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  -ms-grid-columns: 1fr 0fr 1fr;
+      grid-template-columns: 1fr 0fr 1fr;
+}
+
+main .experiance article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .experiance article div .small-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00d646;
+}
+
+main .experiance article div .small-line {
+  background-color: #00d646;
+  width: 3px;
+  height: 176px;
+}
+
+main .experiance article aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 200px;
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 10%;
+}
+
+main .experiance article aside span {
+  color: #00d646;
+}
+
+main .experiance article aside h4 {
+  color: white;
+}
+
+main .experiance article aside p {
+  color: #ac9f9f;
+}
+
+main .experiance .experiance-col_left aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 200px;
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 50%;
+}
+
+main .experiance .experiance-col_left aside span {
+  color: #00d646;
+}
+
+main .experiance .experiance-col_left aside h4 {
+  color: white;
+}
+
+main .experiance .experiance-col_left aside p {
+  color: #ac9f9f;
+}
+
+main .experiance .experiance-col_left div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .experiance .experiance-col_left div .small-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00d646;
+}
+
+main .experiance .experiance-col_left div .small-line {
+  background-color: #00d646;
+  width: 3px;
+  height: 176px;
+}
+/*# sourceMappingURL=main-styles.css.map */

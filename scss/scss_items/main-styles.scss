@@ -1,0 +1,198 @@
+                @import "../common/colors.scss";
+                @import "../common/fonts.scss";
+                @import "../common/helper.scss";
+                @import "../common/functions.scss";
+                @import "../common/mixins.scss";
+                main {
+                    border-top: 10px solid ghostwhite;
+                    border-bottom: 10px solid ghostwhite;
+                    .knowledge {
+                        background-image: url(https://dataveyes.com/images/bloc_01@2x.png);
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        padding: 218px 0;
+                        strong {
+                            color: rgb(98, 98, 155);
+                        }
+                        div {
+                            margin-top: 100px;
+                            article {
+                                span {
+                                    color: rgb(86, 86, 163);
+                                }
+                                margin-top: 40px;
+                                @include flex-around;
+                                justify-content: center;
+                                aside {
+                                    width: 450px;
+                                    background-color: #00d646;
+                                    border-radius: 5px;
+                                    color: rgba(0, 214, 70, 1);
+                                    margin: 0 20px;
+                                    height: 14px;
+                                }
+                            }
+                        }
+                    }
+                    .experiance {
+                        border-top: 10px solid whitesmoke;
+                        background-size: cover;
+                        background-attachment: fixed;
+                        padding: 150px 0;
+                        background-image: url(https://dataveyes.com/images/bloc_03@2x.png);
+                        h2 {
+                            strong {
+                                color: rgb(98, 98, 155);
+                            }
+                        }
+                        article {
+                            @include grid-col3;
+                            grid-template-columns: 1fr 0fr 1fr;
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                .small-circle {
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 50%;
+                                    background-color: #00d646;
+                                }
+                                .small-line {
+                                    background-color: #00d646;
+                                    width: 3px;
+                                    height: 176px;
+                                }
+                            }
+                            aside {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                height: 200px;
+                                width: 40%;
+                                justify-content: space-around;
+                                margin-left: 10%;
+                                span {
+                                    color: #00d646;
+                                }
+                                h4 {
+                                    color: white;
+                                }
+                                p {
+                                    color: rgb(172, 159, 159);
+                                }
+                            }
+                        }
+                        .experiance-col_left {
+                            aside {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-end;
+                                height: 200px;
+                                width: 40%;
+                                justify-content: space-around;
+                                margin-left: 50%;
+                                span {
+                                    color: #00d646;
+                                }
+                                h4 {
+                                    color: white;
+                                }
+                                p {
+                                    color: rgb(172, 159, 159);
+                                }
+                            }
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                .small-circle {
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 50%;
+                                    background-color: #00d646;
+                                }
+                                .small-line {
+                                    background-color: #00d646;
+                                    width: 3px;
+                                    height: 176px;
+                                }
+                            }
+                        }
+                    }
+                    .our-thinks {
+                        padding: 150px 0;
+                        padding-bottom: 799px;
+                        background-color: rgba(156, 154, 154, 0.856);
+                        h2 {
+                            font-size: 4em;
+                        }
+                        .our-thinks_grid {
+                            @include grid-col3;
+                            padding-top: 60px;
+                            article {
+                                background-color: #fff;
+                                .thinks__item {
+                                    .thinks__item_img {
+                                        background-image: url(https://dataveyes.com/images/__manifesto-thumbnail-qa.svg);
+                                        height: 225px;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                        &:hover {
+                                            transition: all ease 2s;
+                                            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+                                        }
+                                    }
+                                    .thinks__item_info {
+                                        background-color: #F5F5F5;
+                                        height: 72px;
+                                        padding: 14px 15px;
+                                        text-align: center;
+                                        h3 {
+                                            color: #3E4452;
+                                            line-height: 22px;
+                                            font-size: 18px;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            text-transform: uppercase;
+                                            white-space: nowrap;
+                                            font-family: Euclid, sans-serif!important;
+                                        }
+                                        p {
+                                            color: #A8A8A8;
+                                            font-size: 16px;
+                                            line-height: 28px;
+                                            // overflow: hidden;
+                                            // text-overflow: ellipsis;
+                                            // white-space: nowrap;}
+                                        }
+                                    }
+                                    button {
+                                        height: 19px;
+                                        width: 100%;
+                                        background-color: #3E4452;
+                                        color: #3E4452;
+                                        &:hover {
+                                            transition: 1s;
+                                            background-color: #3E4452;
+                                            color: #FFF;
+                                            display: block;
+                                            font-size: 18px;
+                                            padding-bottom: 37px;
+                                            height: 60px;
+                                            width: 100%;
+                                            line-height: 24px;
+                                            text-transform: uppercase;
+                                            text-align: center;
+                                            padding-top: 20px;
+                                            font-family: Euclid, sans-serif!important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }

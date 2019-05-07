@@ -1,0 +1,57 @@
+@import "../common/colors.scss";
+@import "../common/fonts.scss";
+@import "../common/helper.scss";
+@import "../common/functions.scss";
+@import "../common/mixins.scss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 50px 0 228px 0;
+    background-color: $main-back;
+    // padding: 32px 0 36px;
+    color: #FFF;
+    font-size: 18px;
+    @include flex-around;
+     :hover {
+        padding: 80px 0 0px 0;
+        font-weight: 600;
+        border-top: 4px solid #fff;
+        transition: 1s;
+        color: white;
+        transition-duration: 2s;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        text-align: center;
+        width: 50%;
+        li {
+            padding-bottom: 30px;
+            border-bottom: 1px solid wheat;
+        }
+    }
+}
+
+header {
+    position: relative;
+    background-color: $main-back;
+    padding-bottom: 200px;
+    img {
+        width: 100%;
+        height: 545px;
+        z-index: 1;
+    }
+    h1 {
+        position: absolute;
+        left: 28%;
+        top: 26%;
+        z-index: 2;
+        color: white;
+        font-size: 115px;
+    }
+}

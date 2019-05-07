@@ -1,0 +1,70 @@
+@import "../common/colors.scss";
+@import "../common/fonts.scss";
+@import "../common/helper.scss";
+@import "../common/functions.scss";
+@import "../common/mixins.scss";
+footer {
+    .footer_wrap {
+        margin-top: -50%;
+        background-color: rgba(51, 59, 80, 1);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        justify-content: space-between;
+        padding: 200px;
+        .footer__details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            p {
+                color: #FFFFFF;
+            }
+        }
+        .footer__inputs {
+            display: grid;
+            grid-gap: 18px;
+            input {
+                background-color: rgba(255, 255, 255, 1);
+                box-sizing: border-box !important;
+                color: #A0A09F;
+                border-style: solid;
+                border-color: rgba(255, 255, 255, 0.55);
+                padding: 3px;
+                margin: 0;
+                max-width: 100%;
+            }
+            div {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 15px;
+                input {
+                    height: 40px;
+                    border-width: 1px;
+                    background-color: rgba(251, 243, 243, 1);
+                    border-style: solid;
+                    border-color: rgba(246, 4, 25, 1);
+                }
+            }
+            .phone {
+                width: 100%;
+                height: 35px;
+            }
+            .message {
+                width: 100%;
+                height: 232px;
+            }
+            button {
+                background-color: greenyellow;
+                height: 35px;
+                text-align: center;
+                border: none;
+                border-radius: 3px;
+                &:hover {
+                    background-color: rgb(60, 68, 88);
+                    transition: 1s;
+                }
+            }
+        }
+    }
+}
